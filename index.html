@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> online Bus reservaton.</title>
+    
+</head>
+<body >
+
+    <h1>  Online Booking Form 🚌 🚌</h1>
+    To reserve seats please complete and submit the booking form.
+    <br> <br>
+    <form>
+        <label for="inputFullName">Enter FullName: </label> <br>
+        <input type="text" placeholder="Enter your first name" required=""/>
+        <input type="text" placeholder="Enter your Last name" required=""/>
+        <br/><br/>
+
+        <label for="inputEmail">Enter Email:</label><br>
+        <input type="text" placeholder="ex: Myname@example.com" required="" />
+
+        <br/><br/>
+
+        <label for="inputphonenmuber">Enter phonenumber:</label><br>
+        <input type="text" placeholder="000 000 000" required="" />
+       <br> <br>
+        <label for="inputDeparture Date/Time*">Departure Date/Time:</label><br>
+        <input type="datetime-local" required="" />
+        <br/><br/>
+        <label for="inputReturn Date/Time">Return Date/Time:</label><br>
+        <input type="datetime-local" required="" />
+        <br/><br/>
+        <label for="input Pickup Address"> Pickup Address: </label> <br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"  required="" placeholder="Enter Your pikup sAddress"></textarea>
+        <br><br>
+        <label for="input Destination Address"> Destination Address </label> <br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" required="" placeholder=" Enter Your Destination Address"></textarea>
+        <br> <br>
+        <label for="inputJourney Type">Journey Type: </label> <br>
+        <select  data-component="dropdown" required="">
+        <option value=""> Please Select </option>
+        <option value="One-way">
+        One-way </option>
+        <option value="Return"> Return </option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Register Now"/>
+       
+        
+    </form>
+</body>
+</html>
